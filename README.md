@@ -14,11 +14,25 @@ SEO Metadata: agentic AI, multi-agent, mission control, 3D virtual office, Three
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/tests-275%20passing-brightgreen.svg?style=flat-square" alt="275 tests passing" />
+  <img src="https://img.shields.io/badge/agents-7-blue.svg?style=flat-square" alt="7 AI agents" />
+  <img src="https://img.shields.io/badge/live%20poll-10s-2ea44f.svg?style=flat-square" alt="Live poll every 10 seconds" />
+  <img src="https://img.shields.io/badge/office-2%20floors-orange.svg?style=flat-square" alt="Two-floor office" />
+</p>
+
+<p align="center">
   <a href="https://github.com/richkeyricks/agentic-world-3d/actions/workflows/ci.yml"><img src="https://github.com/richkeyricks/agentic-world-3d/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" /></a>
   <img src="https://img.shields.io/badge/node-%3E%3D20-brightgreen.svg" alt="Node.js >= 20" />
   <a href="https://agentic-world-3d.pages.dev/"><img src="https://img.shields.io/badge/demo-live-2ea44f.svg" alt="Live Demo" /></a>
   <a href="https://agentic-world-3d.pages.dev/"><img src="https://img.shields.io/badge/hosted%20on-Cloudflare%20Pages-F38020.svg" alt="Cloudflare Pages" /></a>
+</p>
+
+<p align="center">
+  <a href="https://agentic-world-3d.pages.dev/"><img src="https://img.shields.io/badge/%F0%9F%9A%80%20Live%20Demo-2ea44f?style=for-the-badge" alt="Live Demo" /></a>
+  <a href="https://github.com/richkeyricks/agentic-world-3d/archive/refs/heads/main.zip"><img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F%20Download%20ZIP-0366d6?style=for-the-badge" alt="Download ZIP" /></a>
+  <a href="docs/GETTING_STARTED.md"><img src="https://img.shields.io/badge/%F0%9F%93%96%20Docs-555555?style=for-the-badge" alt="Docs" /></a>
+  <a href="https://richkeyrick.gumroad.com/l/agentic-world-3d-premium-pack"><img src="https://img.shields.io/badge/%F0%9F%92%8E%20Premium%20Pack%20%2415-D8B36A?style=for-the-badge" alt="Premium Pack $15" /></a>
 </p>
 
 <p align="center">
@@ -72,6 +86,11 @@ Daylight view of the office floor: hot desks, lounge, game room and kitchen, wit
 Night mode with the Stats side panel open: gateways running, crew active, open tasks, scheduled jobs, recent sessions, enabled skills, channels, CLI reads and 7-day usage (sessions, messages, tool calls, tokens, estimated cost). The numbers shown come from the upstream Hermes data source — in ISA ledger mode the usage section reports *Not Available* until a token source is connected, instead of inventing numbers.
 
 ## Features
+
+| | | |
+|---|---|---|
+| **🏢 Live 3D office**<br/>Two floors — office, meeting room, lounge, game room | **📒 Real ledger data**<br/>Every Working / Idle state comes from `tasks.jsonl`, polled every 10 s | **🛸 UFO abductions**<br/>A UFO beams pedestrians up 12.5 m and carries them away |
+| **👁 POV mode**<br/>See the office through any agent's eyes | **👥 Live viewer counter**<br/>The header shows how many tabs are watching right now | **🛺 Indonesian street life**<br/>Bakso, cilok, kopi and ayam penyet carts with named vendors |
 
 ### The living 3D office
 
