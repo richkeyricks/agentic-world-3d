@@ -1,0 +1,37 @@
+import { agentLabel } from '../format.ts'
+import type { OfficeSnapshot, RuntimeSnapshot } from '../types.ts'
+import { usePolling } from '../polling.ts'
+import { officePollPath } from '../viewers.ts'
+import { EmptyState, LoadingState, PageTitle, RuntimeBadge, TaskProgressBar } from '../ui.tsx'
+import { PixelCharacter } from './Office.tsx'
+
+/** Every ISA agent in the ledger is listed here, plus OpenCode when it is installed. */
+export function Agents({ runtime, pending = false }: { runtime: RuntimeSnapshot | null; pending?: boolean }) {
+  const office = usePolling<OfficeSnapshot>(officePollPath(), 15_000)
+  if (pending) return <><PageTitle eyebrow="CREW" title="Agents"/><LoadingState message="Reading runtime details..."/></>
+  if (!runtime || runtime.profiles.availability === 'unavailable') return <><PageTitle eyebrow="CREW" title="Agents"/><EmptyState title="Not Available">The ISA agent list could not be read from the ledger.</EmptyState></>
+  const states = new Map(office.status === 'ready' ? office.data.stations.map((station) => [station.id, station]) : [])
+  const openCode = runtime.openCode.availability === 'available' ? runtime.openCode.data : undefined
+  const cards = [
+    ...runtime.profiles.data.map((profile) => ({ id: profile.name, kind: 'ISA agent', model: profile.model, gateway: profile.gateway })),
+    ...(openCode ? [{ id: 'opencode', kind: 'OpenCode (CLI tool)', model: openCode, gateway: undefined }] : []),
+  ]
+  return <><PageTitle eyebrow="CREW" title="Agents">The 7 ISA agents from the ledger (SOP ISA v1.0 roster){openCode ? ', plus OpenCode' : ''}. Nothing is configured by hand: the roster comes from the ledger.</PageTitle>
+    <section className="agent-grid">{cards.map((card) => {
+      const station = states.get(card.id)
+      return <article className="agent-card" key={card.id}>
+        <span className="folder-glyph" aria-hidden="true"><PixelCharacter agent={card.id}/></span>
+        <div className="agent-card-body">
+          <h2>{station?.privacy === 'locked' ? '🔒 ' : ''}{agentLabel(card.id)}</h2>
+          <p className="muted">{card.kind}</p>
+          <dl>
+            <div><dt>Model</dt><dd>{card.model}</dd></div>
+            <div><dt>Gateway</dt><dd>{card.gateway ? <RuntimeBadge source={{ availability: 'available', data: card.gateway }}/> : <span className="muted">None (CLI tool)</span>}</dd></div>
+            <div><dt>In the office</dt><dd>{station ? `${station.state}${station.activity ? ` · ${station.activity}` : ''}` : '—'}</dd></div>
+            {station?.progressPercent !== undefined && <div className="progress-row"><dt>Progress</dt><dd><TaskProgressBar percent={station.progressPercent} detail={station.estimatedMinutes !== undefined && station.elapsedMinutes !== undefined ? `${station.elapsedMinutes} dari ${station.estimatedMinutes} menit` : undefined}/></dd></div>}
+          </dl>
+        </div>
+      </article>
+    })}</section>
+  </>
+}

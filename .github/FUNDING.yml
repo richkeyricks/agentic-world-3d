@@ -1,0 +1,5 @@
+# GitHub Sponsors button links. Saweria and PayPal are not built-in
+# FUNDING.yml platforms, so both are listed under `custom:`.
+custom:
+  - https://saweria.co/richkeyrick
+  - https://www.paypal.com/donate/?business=richkeyrick@gmail.com&currency_code=USD
