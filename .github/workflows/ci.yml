@@ -1,0 +1,26 @@
+# Test and build every push to main and every pull request.
+# (Lint is intentionally not a CI gate: `npm run lint` currently reports
+# 5 pre-existing errors — see CONTRIBUTING.md.)
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
