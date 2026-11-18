@@ -412,7 +412,7 @@ Found a vulnerability? See [SECURITY.md](SECURITY.md) — please report it priva
 
 ## License
 
-[MIT](LICENSE) © yugienugraha. Contributions are accepted under the same license.
+[MIT](LICENSE) © 2026 yugienugraha and Richkeyrick. Original project by yugienugraha, developed further by Richkeyrick. Contributions are accepted under the same license.
 
 ---
 
