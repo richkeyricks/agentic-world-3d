@@ -50,7 +50,7 @@ Watch a crew of autonomous AI agents plan, build, review and ship work inside a 
 
 > **Live demo (primary):** <https://agentic-world-3d.pages.dev/> — fast, worldwide, no warning page. **Mirror:** <https://isa-office.serveousercontent.com/> (served through a tunnel; the first 3D load can take a few seconds). Open either link in any browser — no login needed for the public view.
 
-> **Built and maintained by Richkeyrick.** **Mission Control ISA** is Richkeyrick’s rebuild of the 3D agent office. He replaced the `hermes` CLI data source with the ISA ledger (`tasks.jsonl` / `queue.jsonl` / `dispatch.json`), added the 7-agent ISA roster, the public view with access-code protection, the live viewer counter, POV mode, UFO events, the Indonesian street life, security hardening, and the Cloudflare Pages deployment — and he fixes and extends it continuously. It started from [`yugienugraha/ruang`](https://github.com/yugienugraha/ruang) (Hermes Virtual Office), MIT — see [LICENSE](LICENSE). The 3D-agent-office concept itself was popularized by [Hermes3D](https://github.com/iamlukethedev/Hermes3D) (Luke The Dev, August 2026). Upstream features that depend on the `hermes` CLI still work when it is present; without it they degrade to *Not Available* instead of failing.
+> **Built and maintained by Richkeyrick.** **Mission Control ISA** is Richkeyrick’s rebuild of the 3D agent office. He replaced the `hermes` CLI data source with the ISA ledger (`tasks.jsonl` / `queue.jsonl` / `dispatch.json`), added the 7-agent ISA roster, the public view with access-code protection, the live viewer counter, POV mode, UFO events, the Indonesian street life, security hardening, and the Cloudflare Pages deployment — and he fixes and extends it continuously. The 3D office itself originates with [Hermes3D](https://github.com/iamlukethedev/Hermes3D) by Luke The Dev (August 2026) — the original 3D office for AI agents. This fork started from the later implementation [`yugienugraha/ruang`](https://github.com/yugienugraha/ruang) (Hermes Virtual Office), MIT — see [LICENSE](LICENSE). Upstream features that depend on the `hermes` CLI still work when it is present; without it they degrade to *Not Available* instead of failing.
 
 ## Live Demo
 
@@ -412,7 +412,7 @@ Found a vulnerability? See [SECURITY.md](SECURITY.md) — please report it priva
 
 ## License
 
-[MIT](LICENSE) © 2026 Richkeyrick and yugienugraha. Mission Control ISA is designed, rebuilt, hardened, and maintained by **Richkeyrick** — the ISA ledger engine, live agent states, public view with access-code security, viewer counter, POV mode, UFO events, and every fix and feature added since the fork. The original ruang code remains © yugienugraha under the same MIT license. Contributions are accepted under the same license.
+[MIT](LICENSE) © 2026 Richkeyrick and yugienugraha. Mission Control ISA is designed, rebuilt, hardened, and maintained by **Richkeyrick** — the ISA ledger engine, live agent states, public view with access-code security, viewer counter, POV mode, UFO events, and every fix and feature added since the fork. The 3D office originates with [Hermes3D](https://github.com/iamlukethedev/Hermes3D) by Luke The Dev (MIT, August 2026); the ruang code this fork started from remains © yugienugraha under the same MIT license. Contributions are accepted under the same license.
 
 ---
 
