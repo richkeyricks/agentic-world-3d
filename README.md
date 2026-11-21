@@ -70,46 +70,76 @@ If the VM or tunnel is temporarily unreachable, the Cloudflare demo keeps servin
 
 > **Start here — the full tour (5:15).** The long video below explains everything in detail: the office, the seven agents, how the ledger turns tasks into real work, and how to try it yourself. The two shorter videos underneath are the highlights.
 
-<p align="center">
-  <a id="slide-1" href="https://raw.githubusercontent.com/richkeyricks/agentic-world-3d/main/docs/videos/full-tour-5min-720p.mp4">▶ Watch the full tour (5:15)</a>
-</p>
-
-![Full tour (5:15) — click to play](docs/videos/full-tour-5min-720p.mp4)
+The full tour is split into four parts so every part plays right here on this page — GitHub only shows an inline player for videos up to 10 MB. Audio is mastered to streaming standard (-14 LUFS, no clipping). If you watch one video, watch this one.
 
 <p align="center">
-  <a href="#slide-1">● 1</a> &nbsp; <a href="#slide-2">○ 2</a> &nbsp; <a href="#slide-3">○ 3</a> &nbsp; · &nbsp; <a href="#slide-3">Next ›</a>
+  <a href="#part-1">● 1</a> &nbsp; <a href="#part-2">○ 2</a> &nbsp; <a href="#part-3">○ 3</a> &nbsp; <a href="#part-4">○ 4</a> &nbsp; <a href="#tour-84s">○ 5</a> &nbsp; <a href="#agents-68s">○ 6</a>
 </p>
 
-**🎬 1 — Full tour: I Gave 7 AI Agents a 3D Office (5:15, 720p).**
-The detailed walkthrough — the two-floor office, all seven agents and their roles, the task ledger that decides who works and who idles, meetings when two agents share a task, POV cameras, the street outside, and how to try the live demo free or run it yourself. If you watch one video, watch this one. Audio is mastered to streaming standard (-14 LUFS, no clipping). Full-quality 1080p master is the source file; this 720p copy keeps the repository light to clone.
-[▶ Watch the full tour](https://raw.githubusercontent.com/richkeyricks/agentic-world-3d/main/docs/videos/full-tour-5min-720p.mp4) · [🚀 Try it live](https://office.richkeyrick.com/) · [⭐ Star this repo](https://github.com/richkeyricks/agentic-world-3d)
+<a id="part-1"></a>
+
+### 🎬 1 — Full tour, part 1: Hook & tour (1:45)
+
+https://github.com/user-attachments/assets/fa818c90-91ac-4462-97f9-cd3ce10e8ada
+
+The office from orbit — two floors, the meeting room, lounge, game room and the street outside — and all seven agents and their roles: ISA plans, Richkeyrick AI builds, and the rest of the crew.
+
+<p align="center"><a href="#agents-68s">‹ Prev</a> &nbsp;·&nbsp; <a href="#part-2">Next ›</a></p>
+
+<a id="part-2"></a>
+
+### 🎬 2 — Full tour, part 2: The ledger (1:20)
+
+https://github.com/user-attachments/assets/5d42c01c-75bd-4acd-b27f-6d5fe43220e5
+
+The important part: how the task ledger turns tasks into real work. Every Working / Idle state comes from the real ledger — an agent only looks busy when it has a real task — and when two agents share a task, they meet and discuss it.
+
+<p align="center"><a href="#part-1">‹ Prev</a> &nbsp;·&nbsp; <a href="#part-3">Next ›</a></p>
+
+<a id="part-3"></a>
+
+### 🎬 3 — Full tour, part 3: POV & install (1:40)
+
+https://github.com/user-attachments/assets/9d401f58-15e6-416a-9a64-8a6b28071ec1
+
+Watch the office through any agent's eyes with POV mode, see the street outside with its food carts and the UFO, and learn how to try the live demo free or run the office yourself.
+
+<p align="center"><a href="#part-2">‹ Prev</a> &nbsp;·&nbsp; <a href="#part-4">Next ›</a></p>
+
+<a id="part-4"></a>
+
+### 🎬 4 — Full tour, part 4: Premium Pack (0:30)
+
+https://github.com/user-attachments/assets/15d3c486-fa54-4023-b534-f61bead4b46b
+
+The Premium Pack ($15): a ready-to-deploy build, a step-by-step setup guide, and priority support — for those who want a head start. The code in this repo stays free forever.
+[💎 Get the Premium Pack — $15](https://richkeyrick.gumroad.com/l/agentic-world-3d-premium-pack) · [🚀 Try it live](https://office.richkeyrick.com/) · [⭐ Star this repo](https://github.com/richkeyricks/agentic-world-3d)
+
+<p align="center"><a href="#part-3">‹ Prev</a> &nbsp;·&nbsp; <a href="#tour-84s">Next ›</a></p>
 
 ---
 
 ### More videos
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<a id="slide-2"></a>
-![The 90-second tour — click to play](docs/videos/tour-84s.mp4)
-<p align="center"><a href="#slide-1">‹ Prev</a> &nbsp; <a href="#slide-1">○ 1</a> &nbsp; <a href="#slide-2">● 2</a> &nbsp; <a href="#slide-3">○ 3</a> &nbsp; <a href="#slide-3">Next ›</a></p>
+<a id="tour-84s"></a>
 
-**🎬 2 — The 90-second tour (1:24).**
+### 🎬 5 — The 90-second tour (1:24)
+
+https://github.com/user-attachments/assets/3a0c4b9f-2dbf-4eda-812e-4a2a75c6384e
+
 A fast lap around the office: orbit, desks, the meeting room, floor two, the street, POV, and the UFO. Same footage as the long tour, cut to the essentials.
-[▶ Watch the tour](https://raw.githubusercontent.com/richkeyricks/agentic-world-3d/main/docs/videos/tour-84s.mp4)
-</td>
-<td width="50%" valign="top">
-<a id="slide-3"></a>
-![Seven agents, working live — click to play](docs/videos/agents-working-68s.mp4)
-<p align="center"><a href="#slide-2">‹ Prev</a> &nbsp; <a href="#slide-1">○ 1</a> &nbsp; <a href="#slide-2">○ 2</a> &nbsp; <a href="#slide-3">● 3</a> &nbsp; <a href="#slide-1">Next ›</a></p>
 
-**🎬 3 — Seven agents, working live (1:08).**
+<p align="center"><a href="#part-4">‹ Prev</a> &nbsp;·&nbsp; <a href="#agents-68s">Next ›</a></p>
+
+<a id="agents-68s"></a>
+
+### 🎬 6 — Seven agents, working live (1:08)
+
+https://github.com/user-attachments/assets/b05ba212-1a41-498c-ac77-caaab19ed33e
+
 The proof the tour talks about: ISA plans, Richkeyrick AI builds, and every Working / Idle state comes from the real task ledger — an agent only looks busy when it has a real task.
-[▶ Watch the agents](https://raw.githubusercontent.com/richkeyricks/agentic-world-3d/main/docs/videos/agents-working-68s.mp4)
-</td>
-</tr>
-</table>
+
+<p align="center"><a href="#tour-84s">‹ Prev</a> &nbsp;·&nbsp; <a href="#part-1">Next ›</a></p>
 
 > Like what you see? [⭐ Star this repo](https://github.com/richkeyricks/agentic-world-3d) — and if you want the ready-to-deploy build, setup guide, and priority support, get the [💎 Premium Pack — $15](https://richkeyrick.gumroad.com/l/agentic-world-3d-premium-pack).
 
