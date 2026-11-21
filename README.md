@@ -71,20 +71,18 @@ If the VM or tunnel is temporarily unreachable, the Cloudflare demo keeps servin
 > **Start here — the full tour (5:15).** The long video below explains everything in detail: the office, the seven agents, how the ledger turns tasks into real work, and how to try it yourself. The two shorter videos underneath are the highlights.
 
 <p align="center">
-  <a id="slide-1" href="docs/videos/full-tour-5min-720p.mp4"><img src="docs/videos/full-tour-poster.jpg" alt="Full tour — the 3D office from orbit, seven AI agents at their desks" width="100%" /></a>
+  <a id="slide-1" href="https://raw.githubusercontent.com/richkeyricks/agentic-world-3d/main/docs/videos/full-tour-5min-720p.mp4">▶ Watch the full tour (5:15)</a>
 </p>
+
+![Full tour (5:15) — click to play](docs/videos/full-tour-5min-720p.mp4)
 
 <p align="center">
   <a href="#slide-1">● 1</a> &nbsp; <a href="#slide-2">○ 2</a> &nbsp; <a href="#slide-3">○ 3</a> &nbsp; · &nbsp; <a href="#slide-3">Next ›</a>
 </p>
 
-<video src="docs/videos/full-tour-5min-720p.mp4" poster="docs/videos/full-tour-poster.jpg" width="100%" controls preload="metadata">
-  <a href="docs/videos/full-tour-5min-720p.mp4">▶ Watch the full tour (5:15, MP4)</a>
-</video>
-
 **🎬 1 — Full tour: I Gave 7 AI Agents a 3D Office (5:15, 720p).**
 The detailed walkthrough — the two-floor office, all seven agents and their roles, the task ledger that decides who works and who idles, meetings when two agents share a task, POV cameras, the street outside, and how to try the live demo free or run it yourself. If you watch one video, watch this one. Audio is mastered to streaming standard (-14 LUFS, no clipping). Full-quality 1080p master is the source file; this 720p copy keeps the repository light to clone.
-[▶ Watch the full tour](docs/videos/full-tour-5min-720p.mp4) · [🚀 Try it live](https://office.richkeyrick.com/) · [⭐ Star this repo](https://github.com/richkeyricks/agentic-world-3d)
+[▶ Watch the full tour](https://raw.githubusercontent.com/richkeyricks/agentic-world-3d/main/docs/videos/full-tour-5min-720p.mp4) · [🚀 Try it live](https://office.richkeyrick.com/) · [⭐ Star this repo](https://github.com/richkeyricks/agentic-world-3d)
 
 ---
 
@@ -93,26 +91,22 @@ The detailed walkthrough — the two-floor office, all seven agents and their ro
 <table>
 <tr>
 <td width="50%" valign="top">
-<a id="slide-2" href="docs/videos/tour-84s.mp4"><img src="docs/videos/tour-poster.jpg" alt="90-second tour — orbit over the 3D office" width="100%" /></a>
+<a id="slide-2"></a>
+![The 90-second tour — click to play](docs/videos/tour-84s.mp4)
 <p align="center"><a href="#slide-1">‹ Prev</a> &nbsp; <a href="#slide-1">○ 1</a> &nbsp; <a href="#slide-2">● 2</a> &nbsp; <a href="#slide-3">○ 3</a> &nbsp; <a href="#slide-3">Next ›</a></p>
-<video src="docs/videos/tour-84s.mp4" poster="docs/videos/tour-poster.jpg" width="100%" controls preload="metadata">
-  <a href="docs/videos/tour-84s.mp4">▶ Watch the 90-second tour (MP4)</a>
-</video>
 
 **🎬 2 — The 90-second tour (1:24).**
 A fast lap around the office: orbit, desks, the meeting room, floor two, the street, POV, and the UFO. Same footage as the long tour, cut to the essentials.
-[▶ Watch the tour](docs/videos/tour-84s.mp4)
+[▶ Watch the tour](https://raw.githubusercontent.com/richkeyricks/agentic-world-3d/main/docs/videos/tour-84s.mp4)
 </td>
 <td width="50%" valign="top">
-<a id="slide-3" href="docs/videos/agents-working-68s.mp4"><img src="docs/videos/agents-poster.jpg" alt="Seven agents working live from the real task ledger" width="100%" /></a>
+<a id="slide-3"></a>
+![Seven agents, working live — click to play](docs/videos/agents-working-68s.mp4)
 <p align="center"><a href="#slide-2">‹ Prev</a> &nbsp; <a href="#slide-1">○ 1</a> &nbsp; <a href="#slide-2">○ 2</a> &nbsp; <a href="#slide-3">● 3</a> &nbsp; <a href="#slide-1">Next ›</a></p>
-<video src="docs/videos/agents-working-68s.mp4" poster="docs/videos/agents-poster.jpg" width="100%" controls preload="metadata">
-  <a href="docs/videos/agents-working-68s.mp4">▶ Watch the agents working (MP4)</a>
-</video>
 
 **🎬 3 — Seven agents, working live (1:08).**
 The proof the tour talks about: ISA plans, Richkeyrick AI builds, and every Working / Idle state comes from the real task ledger — an agent only looks busy when it has a real task.
-[▶ Watch the agents](docs/videos/agents-working-68s.mp4)
+[▶ Watch the agents](https://raw.githubusercontent.com/richkeyricks/agentic-world-3d/main/docs/videos/agents-working-68s.mp4)
 </td>
 </tr>
 </table>
