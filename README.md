@@ -80,7 +80,7 @@ The full tour is split into four parts so every part plays right here on this pa
 
 ### 🎬 1 — Full tour, part 1: Hook & tour (1:45)
 
-https://github.com/user-attachments/assets/fa818c90-91ac-4462-97f9-cd3ce10e8ada
+https://github.com/user-attachments/assets/cc6e81ea-1031-454f-bc17-2e26192af6b5
 
 The office from orbit — two floors, the meeting room, lounge, game room and the street outside — and all seven agents and their roles: ISA plans, Richkeyrick AI builds, and the rest of the crew.
 
@@ -125,7 +125,7 @@ The Premium Pack ($15): a ready-to-deploy build, a step-by-step setup guide, and
 
 ### 🎬 5 — The 90-second tour (1:24)
 
-https://github.com/user-attachments/assets/3a0c4b9f-2dbf-4eda-812e-4a2a75c6384e
+https://github.com/user-attachments/assets/5867277f-a533-47c0-ab94-c73a0d8771e5
 
 A fast lap around the office: orbit, desks, the meeting room, floor two, the street, POV, and the UFO. Same footage as the long tour, cut to the essentials.
 
