@@ -33,6 +33,11 @@ SEO Metadata: agentic AI, multi-agent, mission control, 3D virtual office, Three
   <a href="https://github.com/richkeyricks/agentic-world-3d/archive/refs/heads/main.zip"><img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F%20Download%20ZIP-0366d6?style=for-the-badge" alt="Download ZIP" /></a>
   <a href="docs/GETTING_STARTED.md"><img src="https://img.shields.io/badge/%F0%9F%93%96%20Docs-555555?style=for-the-badge" alt="Docs" /></a>
   <a href="https://richkeyrick.gumroad.com/l/agentic-world-3d-premium-pack"><img src="https://img.shields.io/badge/%F0%9F%92%8E%20Premium%20Pack%20%2415-D8B36A?style=for-the-badge" alt="Premium Pack $15" /></a>
+  <a href="https://x.com/Richkeyricks"><img src="https://img.shields.io/badge/Follow%20%40Richkeyricks%20on%20X-000000?style=for-the-badge&logo=x" alt="Follow @Richkeyricks on X" /></a>
+</p>
+
+<p align="center">
+  Follow the build on X: <a href="https://x.com/Richkeyricks">@Richkeyricks</a> — daily demos, honest numbers, and new launches.
 </p>
 
 <p align="center">
