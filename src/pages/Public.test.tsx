@@ -98,5 +98,8 @@ describe('Public shell', () => {
     expect(markup).toContain('?admin=1')
     expect(markup).toContain('Richkeyrick')
     expect(markup).toContain('public-footer')
+    expect(markup).toContain('x.com/Richkeyricks')
+    expect(markup).toContain('Follow @Richkeyricks')
+    expect(markup).toContain('formsubmit.co/richkeyrick@gmail.com')
   })
 })

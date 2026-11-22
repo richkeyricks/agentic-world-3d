@@ -596,6 +596,11 @@ button.hud-chip:hover { border-color: var(--accent); }
 .crew-row.static:hover { border-color: var(--border); }
 .public-footer { border-top: 1px solid var(--border); color: var(--text-muted); margin: 28px 16px 0; padding: 16px 0 20px; text-align: center; }
 .public-footer a { color: var(--accent); }
+.launch-capture { border: 1px solid var(--border); border-radius: 8px; margin: 20px 16px 0; padding: 14px 16px; text-align: center; }
+.launch-capture p { margin: 0 0 10px; }
+.launch-capture form { align-items: center; display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.launch-capture input[type="email"] { background: transparent; border: 1px solid var(--border-strong); border-radius: 4px; color: var(--text); font: inherit; padding: 7px 10px; width: min(280px, 100%); }
+.launch-capture .honeypot { height: 0; left: -9999px; opacity: 0; position: absolute; width: 0; }
 .panel-toggle { backdrop-filter: blur(6px); background: color-mix(in srgb, var(--surface) 82%, transparent); border: 1px solid var(--border-strong); border-radius: 4px; color: var(--text); cursor: pointer; font: 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: .06em; padding: 7px 12px; }
 .panel-toggle:hover, .panel-toggle.active { border-color: var(--accent); }
 .panel-toggle.active { background: var(--active-bg); color: var(--active-text); }

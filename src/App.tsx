@@ -107,6 +107,25 @@ const PUBLIC_PAGES: { id: PublicPage; label: string }[] = [
   { id: 'activity', label: 'Activity' },
 ]
 
+/** Product Hunt launch email capture, public view only. Free via FormSubmit; shows a thanks state on ?subscribed=1. */
+function LaunchCapture() {
+  const subscribed = typeof window !== 'undefined' && new URLSearchParams(window.location.search).get('subscribed') === '1'
+  if (subscribed) return <section className="launch-capture" aria-label="Launch updates"><p><strong>You are on the list.</strong> Launch updates for the 3D office are coming to your inbox — see you on Product Hunt, Tue 24 Nov.</p></section>
+  return <section className="launch-capture" aria-label="Launch updates">
+    <p><strong>Launching on Product Hunt Tue 24 Nov.</strong> Get the launch link and updates in your inbox:</p>
+    <form action="https://formsubmit.co/richkeyrick@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="Launch updates — Agentic World 3D (Product Hunt 24 Nov)" />
+      <input type="hidden" name="_template" value="table" />
+      <input type="hidden" name="_next" value="https://agentic-world-3d.pages.dev/?subscribed=1" />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_autoresponse" value="Thanks for signing up for Agentic World 3D launch updates. The Product Hunt launch is Tue 24 Nov 2026 — the link is coming to your inbox. — Richkeyrick" />
+      <input type="text" name="_honey" tabIndex={-1} autoComplete="off" aria-hidden="true" className="honeypot" />
+      <input type="email" name="email" required placeholder="you@example.com" maxLength={120} aria-label="Email address" />
+      <button type="submit" className="refresh-button">Notify me</button>
+    </form>
+  </section>
+}
+
 export function PublicShell() {
   const [publicPage, setPublicPage] = useState<PublicPage>('office')
   const viewers = useViewers()
@@ -114,9 +133,10 @@ export function PublicShell() {
   useEffect(() => { document.title = `${publicPage === 'office' ? 'Office' : publicPage === 'agents' ? 'Agents' : 'Activity'} · Mission Control ISA` }, [publicPage])
   const adminUrl = typeof window === 'undefined' ? '?admin=1#/office' : `${window.location.pathname}?admin=1${window.location.hash || '#/office'}`
   return <div className="app app-office public">
-    <main><header><span className="header-title"><span>ISA / OFFICE · LIVE</span></span><span className="office-title">{OFFICE_TITLE}</span><nav className="public-nav" aria-label="Public pages">{PUBLIC_PAGES.map((item) => <button type="button" key={item.id} className={publicPage === item.id ? 'active' : ''} aria-current={publicPage === item.id ? 'page' : undefined} onClick={() => setPublicPage(item.id)}>{item.label}</button>)}</nav><span className="header-actions"><ViewersChip count={viewers}/><button type="button" className="icon-button theme-toggle" onClick={toggleTheme} aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`} title={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}>{theme === 'dark' ? '☀' : '☾'}</button><a className="refresh-button" href={adminUrl}>Masuk sebagai admin</a></span></header>
+    <main><header><span className="header-title"><span>ISA / OFFICE · LIVE</span></span><span className="office-title">{OFFICE_TITLE}</span><nav className="public-nav" aria-label="Public pages">{PUBLIC_PAGES.map((item) => <button type="button" key={item.id} className={publicPage === item.id ? 'active' : ''} aria-current={publicPage === item.id ? 'page' : undefined} onClick={() => setPublicPage(item.id)}>{item.label}</button>)}</nav><span className="header-actions"><ViewersChip count={viewers}/><a className="refresh-button" href="https://x.com/Richkeyricks" target="_blank" rel="noreferrer">Follow @Richkeyricks</a><button type="button" className="icon-button theme-toggle" onClick={toggleTheme} aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`} title={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}>{theme === 'dark' ? '☀' : '☾'}</button><a className="refresh-button" href={adminUrl}>Masuk sebagai admin</a></span></header>
       {publicPage === 'office' ? <Office publicMode dashboard={null}/> : publicPage === 'agents' ? <PublicAgents/> : <PublicActivity/>}
       <PublicStatsPanel/>
+      <LaunchCapture/>
       <footer className="public-footer">© <a href="https://www.richkeyrick.com" target="_blank" rel="noreferrer">Richkeyrick</a> · Mission Control ISA — live view, read-only</footer>
     </main></div>
 }
